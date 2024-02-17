@@ -2829,6 +2829,10 @@ do
     Library:MakeDraggable(KeybindOuter);
 end;
 
+function Library:SetKeybindVisibility(Bool)
+    Library.KeybindFrame.Visible = Bool;
+end;
+
 function Library:SetWatermarkVisibility(Bool)
     Library.Watermark.Visible = Bool;
 end;
